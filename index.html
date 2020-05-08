@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section id="hero">
+        <div class="container">
+          <nav>
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </nav>
+          <div class="content-container">
+            <div class="content">
+                <p>Eat the Rainbow</p>
+                <button id="show-modal">Learn More</button>
+                </div>
+          </div>
+      </section>
+      
+      <div class="overlay overlay--hidden"></div>
+      <div class="modal modal--hidden">
+        <div class="modal-contents">
+          <div class="modal-close">
+            <span>X</span>
+          </div>
+          <p>Enter your email address to find out more</p>
+          <form id="learn-more-form">
+            
+          <input type="email" placeholder="Type Email Here">
+          <button id="submit">Submit</button>
+          </form>
+          
+        </div>
+      </div>
+    <script src="app.js"></script>
+</body>
+</html>
