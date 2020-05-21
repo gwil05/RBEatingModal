@@ -17,7 +17,7 @@ body {
   }
   
   #hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), url(./Images/foodbg.jpg);
+    background-image: url('./Images/foodbg.jpg'), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
     background-size: cover;
     height: 100vh;
     color: #fff;
